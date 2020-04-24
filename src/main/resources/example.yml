@@ -1,0 +1,36 @@
+#This is a comment
+name: Amit
+
+#List
+names:
+  - Amit
+  - Sumit
+  - Rohit
+#if using # sign in string, use in double quotes
+pound_sign: "#"
+#More complex scenario
+book:
+  author: Robin
+  Publisher: Penguin
+
+#boolean values
+truth: yes # True, TRUE etc all are good
+false: no #NO, No, FALSE, false, False
+
+#if using single quote in String, put in double quotes
+string_val: "This is it's quote"
+
+# if using colon in string, put it in double quotes
+colon_string: "my courses: one two three"
+
+#By using | new line character will be read
+include_new_lines: |
+  aklfjla jalsf jaslj ljlaf
+  ajlfasj ja;lfjas;l
+  lkajsfklaj laj alfjlasjf
+
+# By using > it drop the new line and read the whole text as single line
+ignore_new_lines: >
+  this is
+  just one long
+  string
