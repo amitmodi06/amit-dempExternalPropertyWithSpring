@@ -5,16 +5,16 @@ package amit.springframework.amitdempExternalPropertyWithSpring.examplebeans;
  */
 public class FakeDataSource {
 
-    private String username;
+    private String nameUser;
     private String password;
-    private String dburl;
+    private String urldb;
 
-    public String getUsername() {
-        return username;
+    public String getNameUser() {
+        return nameUser;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
+    public void setNameUser(String nameUser) {
+        this.nameUser = nameUser;
     }
 
     public String getPassword() {
@@ -25,11 +25,11 @@ public class FakeDataSource {
         this.password = password;
     }
 
-    public String getDburl() {
-        return dburl;
+    public String getUrldb() {
+        return urldb;
     }
 
-    public void setDburl(String dburl) {
-        this.dburl = dburl;
+    public void setUrldb(String urldb) {
+        this.urldb = urldb;
     }
 }

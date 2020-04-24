@@ -26,9 +26,9 @@ public class PropertyConfig {
     @Bean
     public FakeDataSource fakeDataSource(){
         FakeDataSource fakeDataSource = new FakeDataSource();
-        fakeDataSource.setUsername(user);
+        fakeDataSource.setNameUser(user);
         fakeDataSource.setPassword(password);
-        fakeDataSource.setDburl(url);
+        fakeDataSource.setUrldb(url);
         return fakeDataSource;
     }
 

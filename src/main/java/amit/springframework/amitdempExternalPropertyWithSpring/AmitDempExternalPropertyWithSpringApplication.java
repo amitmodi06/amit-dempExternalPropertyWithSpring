@@ -11,7 +11,7 @@ public class AmitDempExternalPropertyWithSpringApplication {
 	public static void main(String[] args) {
 		ApplicationContext ctx = SpringApplication.run(AmitDempExternalPropertyWithSpringApplication.class, args);
 		FakeDataSource fakeDataSource = (FakeDataSource) ctx.getBean(FakeDataSource.class);
-		System.out.println(fakeDataSource.getUsername());
+		System.out.println(fakeDataSource.getNameUser());
 	}
 
 }
